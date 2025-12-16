@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paris Saint Germain</title>
+    <style>
+         body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+         }
+
+         .header {
+            background: #003cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+         }
+
+         .header img {
+            width: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+         }
+
+         .container {
+            display: flex;
+            min-height: 70vh;
+         }
+
+         .sidebar {
+            background: aliceblue;
+            width: 25%;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+         }
+
+         .sidebar ul {
+            list-style: none;
+            padding: 0;
+         }
+
+         .sidebar li {
+            padding: 10px 0;
+            border-bottom: 1px solid #003cff;
+            cursor: pointer;
+         }
+
+         .sidebar li a {
+            color: #333;
+            text-decoration: none;
+         }
+
+         .sidebar li:hover, .sidebar li a:hover {
+            color: #003cff;
+            font-weight: bold;
+         }
+
+         .content {
+            background: white;
+            flex: 1;
+            padding: 20px;
+         }
+
+         .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+         }
+
+         .highlight {
+            background: aliceblue;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #003cff;
+         }
+
+         .players {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+         }
+
+         .players-card {
+            height: 500px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px #003cff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+         }
+
+         .players-image img {
+            width: 100%;
+            height: 150px;
+         }
+
+         .players-data {
+            text-align: center;
+         }
+
+   </style>
+  </head>
+  <body>
+    <div class="header">
+        <img src="PSG.png" alt="PSG Logo">
+        <span><strong>PSG France</strong></span>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Nafigasi</h3>
+            <ul>
+                <li><a href="PSG.html">Beranda</a></li>
+                <li><a href="PSG-pemain.html">Pemain Legendaris ‼💥</a></li>
+                <li><a href="PSG-jadwal.html">Jadwal Pertandingan</a></li>
+                <li><a href="PSG-galery.html">Galeri</a></li>
+                <li><a href="PSG-coach.html">Coach Legendaris ‼💥</a></li>
+                <li><a href="PSG-Kontak.html">Kontak</a></li>
+            </ul>
+    </div>
+
+    <div class="content">
+        <h2>Para Pemain Legendaris ‼💥</h2>
+        <div class="players">
+          <!-- Pemain 1-->
+           <div class="players-card">
+            <div class="players-image">
+                <img src="Foto.mbape.PSG.webp">
+            </div>
+            <div class="players-data">
+                <h4>Kylian Mbapé</h4>
+                <p>
+                    20 Desember 1998, Mbappé lahir di Paris, tumbuh di wilayah Bondy. Mulai karier di akademi AS Bondy, 
+                    kemudian ke Monaco. Ia cepat menanjak sejak usia muda, memenangkan Ligue 1 bersama 
+                    Monaco, lalu pindah ke Paris Saint-Germain (PSG) pada 2017, dan menjadi salah satu 
+                    penyerang paling produktif di dunia. Saat ini (2025), dia sudah pindah ke Real Madrid.
+                </p>
+            </div>
+           </div>
+           <!-- Pemain 2-->
+            <div class="players-card">
+              <div class="players-image">
+                <img src="Foto.Neymar-JR.PSG.jpg">
+              </div>
+              <div class="players-data">
+                <h4>Neymar Jr</h4>
+                <p>
+                    5 Februari 1992, Neymar da Silva Santos Júnior, dari Brasil, lahir di Mogi das Cruzes, São Paulo. Menjadi 
+                    terkenal sejak di Santos FC sebagai pemain muda berbakat, kemudian ke FC Barcelona 
+                    (2013–2017), lalu ke PSG (2017-2023). Dikenal karena dribblingnya, kreativitas, kecepatan, 
+                    dan kemampuan mencetak gol/assist.
+                </p>
+              </div>
+            </div>
+            <!-- Pemain 3 -->
+             <div class="players-card">
+               <div class="players-image">
+                <img src="Foto.Messi.PSG.webp">
+                 <h4>Lionel Messi</h4>
+                 <p>
+                    Lionel Andrés Messi lahir di Rosario, Argentina. Dia mulai kariernya di akademi Newell's Old 
+                    Boys, lalu pindah ke Barcelona muda sejak usia remaja. Di Barcelona, Messi memenangkan 
+                    berbagai gelar: La Liga, Champions League, banyak Ballon d’Or, dan meraih prestasi 
+                    internasional dengan Argentina (Copa América, Piala Dunia). Pada Agustus 2021, Messi 
+                    bergabung ke PSG.
+                 </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          Saat ini didedikasikan untuk semua penggemar PSG di
+          France. Di sini kamu bisa menemukan berita terbaru,
+          informasi pemain, jadwal pertandingan, dan banyak lagi.
+        </p>
+        <div class="footer">
+            <p>
+              " © 2025 PSG France Fan page - Tidak berafiliasi resmi
+              dengan PSG FC "
+            </p>
+        </div>
+</div>
+</body>
+</html>
